@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    
+    <EditTextPreference
+    android:title="User Name"
+    android:key="name"
+    android:summary="Enter your name">
+        
+    </EditTextPreference>
+		
+	<CheckBoxPreference
+    android:title="Euro Currency"
+    android:defaultValue="false"
+    android:key="euro"
+    android:summary="Check for Use Cost Calculator to be in Euros/Liters">
+ 	</CheckBoxPreference>
+    
+
+</PreferenceScreen>
